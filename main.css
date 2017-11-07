@@ -16,13 +16,12 @@ div.div_head
 
 div.about, div.experience, div.contacts
 {
-	padding-left: 50px;
 	margin-left: 50px;
 	font-family: Arial, sans-serif;
 	font-style: normal;
 }
 
-div.contats:hover
+div.contacts:hover
 {
 	background: #f90;
 }
