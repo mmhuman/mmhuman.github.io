@@ -1,5 +1,5 @@
 function add_task(name) {
-    $("#root ul").append("<li> <span>" + name + " </span> <button id = 'del_task'>Удалить</button> </li>");
+    $("#root ul").append("<li> <span>" + name + "</span> <button id = 'del_task'>Удалить</button> </li>");
     $("ul li:nth-last-child(1) button").click(function() {$(this).parent().remove()});
 }
 
